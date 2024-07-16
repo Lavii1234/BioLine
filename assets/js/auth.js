@@ -71,7 +71,7 @@ document.addEventListener('DOMContentLoaded', () => {
     onAuthStateChanged(auth,(user)=>{
         if(user){
             const uid = user.uid
-
+              //
             if(linkSair) linkSair.classList.remove('hide')
             if(formLogin) formLogin.classList.add('hide')
             if(formPost) formPost.classList.remove('hide')
