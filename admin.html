@@ -62,13 +62,19 @@
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Espécies
+              Regiões
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Aéreos</a></li>
-              <li><a class="dropdown-item" href="#">Aquáticos</a></li>
-              <li><a class="dropdown-item" href="#">Domésticos</a></li>
-              <li><a class="dropdown-item" href="#">Selvagens</a></li>
+              <li><a class="dropdown-item" href="#">Norte</a></li>
+
+
+              <li><a class="dropdown-item" href="#">Nordeste</a></li>
+
+              <li><a class="dropdown-item" href="#">Centro-oeste</a></li>
+
+              <li><a class="dropdown-item" href="#">Sudeste</a></li>
+
+              <li><a class="dropdown-item" href="#">Sul</a></li>
             </ul>
           </li>
           <li class="nav-item link-admin">
@@ -107,6 +113,14 @@
     <input type="date" class="form-control mb-3 data-publicacao-post" placeholder="Informe a data..."required>
     <input type="text" class="form-control mb-3 autor-post" placeholder="Informe o autor..."
     required>
+    <label class="'form-label text-success fw-bold">Categoria</label>
+    <select class="form-control post-categoria mb-3">
+      <option value="norte">Norte</option>
+      <option value="nordeste">Nordeste</option>
+      <option value="centro-oeste">Centro-oeste</option>
+      <option value="sudeste">Sudeste</option>
+      <option value="sul">Sul</option>
+    </select>
     <button class="btn btn-success form-control send-post">Postar</button>
   </div>
 
